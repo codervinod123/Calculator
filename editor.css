@@ -7,39 +7,74 @@
 body{
     height: 100vh;
     display: flex;
-    background: rgb(0, 203, 156);
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
+
 .container{
-    background: rgb(42, 34, 34);
-    padding: 2rem;
-    border-radius: 1rem;
+    width: 230px;
+    height: 450px;
+    background: #240f72;
+    padding-top: 1rem;
     color: aliceblue;
-    display: flex;
-    flex-direction: column;
+    border-radius: 1rem;
 }
 
 .container h1{
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.container h4{
-    margin-bottom: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+.answer{
+    margin-top: 1rem;
+    height: 25%;
+    padding: 0 1rem 0 1rem;
+    background: #240f72;
+    text-align: center;
 }
-#editor{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+
+#op{
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    float: right;
+    height: 2rem;
+    background: #240f72;
+    border: 1px solid rgb(224, 215, 215);
+    color: azure;
+    padding: .3rem;
+}
+
+.answer input:focus{
+
+    border: 1px solid green;
+}
+
+.buttons{
+    margin-top: 1rem;
+    height: 59%;
+    border-radius: 0 0 1rem 1rem;
+    background: #180b46;
+    align-items: center;
+    justify-content: center;
     
 }
-::-webkit-scrollbar{
-    display: none;
+
+.btns{
+    padding: 2rem 1rem 2rem 1rem;
 }
-button{
-    max-width: fit-content;
-    margin-top: 2rem;
+
+.btn{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin: .3rem;
+    border-radius: 50%;
+    background: #8575bd;
+    border: none;
     cursor: pointer;
+    color: antiquewhite;
+}
+
+#answer{
+    float: bottom;
 }
